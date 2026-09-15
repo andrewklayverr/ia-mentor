@@ -1,0 +1,13 @@
+{
+  "active": false,
+  "startedAt": null,
+  "mode": "tutor",
+  "topic": null,
+  "mission": null,
+  "estimatedMinutes": null,
+  "sourceIds": [],
+  "runtimeVersions": {},
+  "testsRun": [],
+  "resumeFrom": null,
+  "parkingLot": []
+}

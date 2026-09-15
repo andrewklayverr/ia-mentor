@@ -1,0 +1,20 @@
+{
+  "name": "ia-mentor",
+  "version": "0.1.1",
+  "private": false,
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "setup:data": "node scripts/init-local.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "test": "node --test tests/system.test.mjs",
+    "check:public": "node scripts/check-public.mjs",
+    "verify": "npm run setup:data && npm run doctor && npm test && npm run check:public",
+    "check:logic:1": "node --test exercises/logic/01-sequencia/exercise.test.js",
+    "check:logic:2": "node --test exercises/logic/02-condicionais/exercise.test.js",
+    "check:logic:3": "node --test exercises/logic/03-loops/exercise.test.js",
+    "check:logic:4": "node --test exercises/logic/04-funcoes/exercise.test.js",
+    "check:logic:5": "node --test exercises/logic/05-arrays/exercise.test.js",
+    "check:logic:6": "node --test exercises/logic/06-algoritmos/exercise.test.js"
+  }
+}

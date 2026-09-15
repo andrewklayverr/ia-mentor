@@ -1,0 +1,15 @@
+services:
+  mentor:
+    build:
+      context: .
+    image: fullstack-mentor-v0:local
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/workspace
+      - codex-home:/home/node/.codex
+
+volumes:
+  codex-home:
+

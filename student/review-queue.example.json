@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "items": [],
+  "intervalsDays": [1, 3, 7, 14, 30],
+  "notes": "A fila é adaptativa. Erros importantes antecipam a revisão; desempenho independente pode ampliar o intervalo."
+}
+

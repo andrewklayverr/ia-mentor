@@ -1,0 +1,43 @@
+# Dependências, build e cobertura
+node_modules/
+coverage/
+dist/
+build/
+*.log
+*.zip
+
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+.codex/
+.codex-log/
+auth.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dados pessoais do aluno (somente os modelos .example são públicos)
+student/profile.md
+student/progress.json
+student/review-queue.json
+student/mistakes.md
+student/diagnostic.md
+sessions/current.json
+sessions/history/*
+!sessions/history/.gitkeep
+focus/config.json
+focus/state.json
+
+# Projetos pessoais adicionados durante o estudo
+projects/*
+!projects/README.md
+!projects/.gitkeep
+
+# Arquivos locais do sistema/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

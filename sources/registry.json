@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-09-15",
+  "runtime": { "nodeMajor": 24, "reason": "Linha LTS usada pela V0.1" },
+  "sources": [
+    { "id": "ecma-2026", "topics": ["javascript", "tipos", "operadores", "funcoes", "objetos", "promises"], "authority": "specification", "title": "ECMAScript 2026 Language Specification", "url": "https://tc39.es/ecma262/2026/" },
+    { "id": "mdn-js-guide", "topics": ["javascript", "sintaxe", "controle", "loops", "funcoes", "colecoes"], "authority": "official-reference", "title": "MDN JavaScript Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" },
+    { "id": "node-learn", "topics": ["node", "event-loop", "arquivos", "http", "testes"], "authority": "official-documentation", "title": "Node.js Learn", "url": "https://nodejs.org/en/learn" },
+    { "id": "typescript-handbook", "topics": ["typescript", "tipos", "narrowing", "generics"], "authority": "official-documentation", "title": "TypeScript Handbook", "url": "https://www.typescriptlang.org/docs/handbook/" },
+    { "id": "react-learn", "topics": ["react", "componentes", "estado", "efeitos"], "authority": "official-documentation", "title": "React Learn", "url": "https://react.dev/learn" },
+    { "id": "postgresql-current", "topics": ["sql", "postgresql", "joins", "transacoes"], "authority": "official-documentation", "title": "PostgreSQL Current Tutorial", "url": "https://www.postgresql.org/docs/current/tutorial.html" },
+    { "id": "owasp-top-ten", "topics": ["seguranca-web"], "authority": "industry-standard", "title": "OWASP Top Ten", "url": "https://owasp.org/www-project-top-ten/" }
+  ]
+}
+

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "meta": {
+    "student": "Aluno",
+    "sessionsCompleted": 0,
+    "totalFocusedMinutes": 0,
+    "lastSessionAt": null,
+    "defaultMode": "tutor",
+    "currentTrack": "logica_algoritmos",
+    "nextRecommendedTopic": "diagnostico_inicial",
+    "diagnosticCompleted": false
+  },
+  "areas": {
+    "logica_algoritmos": {
+      "priority": 1,
+      "topics": {
+        "decomposicao": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "sequencia_estado_rastreamento": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "expressoes_booleanos": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "condicionais_fronteiras": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "loops_invariantes": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "funcoes_contratos": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "arrays_strings": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "padroes_algoritmicos": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "busca_ordenacao": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "complexidade_basica": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "recursao": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "debugging_por_hipotese": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null }
+      }
+    },
+    "javascript": {
+      "priority": 2,
+      "topics": {
+        "ambiente_node": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "valores_tipos_variaveis": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "operadores": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "controle_fluxo": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "repeticao": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "funcoes_escopo": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "arrays_strings": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "objetos_map_set": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "erros_modulos_arquivos": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "promises_async_await": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "event_loop": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "testes_debugging": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null }
+      }
+    },
+    "backend": {
+      "priority": 3,
+      "topics": {
+        "http": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "rest": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "middleware": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "autenticacao_autorizacao": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null }
+      }
+    },
+    "banco_de_dados": {
+      "priority": 4,
+      "topics": {
+        "sql_basico": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "joins": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "modelagem": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "transacoes": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null }
+      }
+    },
+    "engenharia": {
+      "priority": 5,
+      "topics": {
+        "git": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "testes": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "arquitetura_em_camadas": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null },
+        "docker_ci_cd": { "status": "nao_iniciado", "confidence": 0, "evidence": [], "lastReviewed": null }
+      }
+    }
+  }
+}
